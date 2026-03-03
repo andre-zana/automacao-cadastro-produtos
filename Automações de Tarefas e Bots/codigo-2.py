@@ -15,7 +15,7 @@ pyautogui.press("enter")
 # Passo 3: Efetuar login
 import time # Biblioteca para controle de tempo (pausas na execução do script)
 email = "andrezana@hotmail.com" # Variável 'email' recebendo o email que iremos utilizar no login
-senha = "123456" # Variável 'senha' recebendo a senha que iremos utilizar no login
+senha = "123456" # Variável 'senha' recebendo a senha que iremos utilizar no login ( SENHA FAKE/TESTE )
 pyautogui.click(x=690, y=409) # Posição onde devemos escrever o email para login
 pyautogui.write(email) # Digitar o email de login
 pyautogui.press("tab")
